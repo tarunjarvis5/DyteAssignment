@@ -1,5 +1,9 @@
 # Logwarts
 Email : tarunnair200029@gmail.com / tarunjarvis5@gmail.com
+
+## UI
+ ![Alt text](https://github.com/tarunjarvis5/DyteAssignment/blob/master/UI.PNG "Title")
+
 ## Setup
 1) **SQL Server Management Studio**:
  https://www.microsoft.com/en-us/sql-server/sql-server-downloads
@@ -119,5 +123,11 @@ The front end **ReactJs being a Single Page Application** the code is divided in
 The backend uses ASP.Net Core, the coding pattern used in this project follow **MVC(Model-View-Controller)** , with an additional **ViewModel layer** which avoid the exact structure of the database to be viewed or sent to the client app.
 Instead of traditional **Repository pattern**, the code uses **DataProviders**, which allow simple abstraction and avoid additional layer of code, which makes it slower, as use of generic variable as avoided.
 **The code also includes an extra layer of abstraction to avoid the use of all the DataBaseContext functionality like, Remove and Update etc, as these functionalities can be used to tamper with the logs ingested.**
+
+## Resources Used :
+https://stackoverflow.com/questions/40714583/how-to-specify-a-port-to-run-a-create-react-app-based-project
+https://stackoverflow.com/questions/72654483/controller-not-working-except-weatherforecast-in-net-core-with-react
+https://bard.google.com/
+https://chat.openai.com
 
     
